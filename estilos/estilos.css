@@ -1,0 +1,133 @@
+body{
+  background-color: #f0f0e8
+}
+
+.todo{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px auto;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.columna2{
+  flex: 25;
+
+  padding: 10px;
+  border: 0px solid #2c3e50;
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.columna3{
+  position: fixed;
+  flex: 25;
+
+  padding: 10px;
+  border: 0px solid #2c3e50;
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.columna1{
+  flex: 75;
+  width: 100%;
+  padding: 0px;
+  border: 0px solid #2c3e50;
+  margin: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.secciones{
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 45px;
+  font-family: helvetica, sans-serif;
+}
+
+.quiensoy{
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: #00a196;
+}
+
+.gonzaloluna{
+  font-size: 40px;
+  font-family: helvetica, sans-serif;
+  margin top: 25px;
+  margin-bottom: 10px;
+}
+
+.titulos{
+  color: #00a196;
+  font-size: 17px;
+  font-family: helvetica, sans-serif;
+  margin-bottom: 5px;
+}
+
+p{
+  font-size: 14px;
+  font-family: helvetica, sans-serif;
+}
+
+.elementolista{
+  margin-bottom: 2px;
+  padding: 0px;
+  list-style:none;
+}
+
+.ul{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.h4{
+  font-size: 14px;
+  color: #00a196;
+}
+
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.linea{
+  color: #00a196;
+  border: 1px solid;
+}
+
+.botones{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-family: helvetica, sans-serif;
+  border-radius: 5px;
+  background-color: #e0d1b6;
+  margin: 2px;
+  padding: 5px;
+border-style:	none;
+width: 300px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.imagen{
+  padding: 0px;
+  margin-bottom: 20px;
+}
